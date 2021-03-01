@@ -152,18 +152,6 @@ a {
   text-decoration: none;
 }
 
-/* Typography */
-
-h2 {
-  font-size: 2rem;
-  font-weight: 600;
-  font-family: "Source Serif Pro", serif;
-}
-
-p {
-  font-size: 1.1rem;
-  line-height: 1.5;
-}
 /* General */
 
 .container {
@@ -213,8 +201,8 @@ p {
   background-color: #005979;
   color: #fff;
   padding: 1.7rem 3.5rem;
-  height: 33rem;
   box-shadow: 7px 7px 8px 0 rgba(0, 0, 0, 0.7);
+  align-self: stretch;
 }
 
 .o-list {
@@ -250,12 +238,17 @@ p {
 
 /* Text-Section */
 
-.section-text h2 {
+.description dt {
   padding: 0.6rem 0;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Source Serif Pro", serif;
 }
 
-.section-text p {
+.description dd {
   padding-left: 3rem;
+  font-size: 1.1rem;
+  line-height: 1.5;
 }
 
 /* Footer */
