@@ -1,0 +1,260 @@
+/* Eric Mayers Reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* My Reset */
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global */
+
+body {
+  line-height: 1.5;
+  font-family: "Karla", sans-serif;
+  background-color: #d4cea7;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* General */
+
+.container {
+  max-width: 70rem;
+  padding: 0 2rem;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* Header */
+
+.header {
+  padding: 1.5rem 0;
+  background-color: #f96115;
+}
+
+.nav-bar li {
+  margin-right: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.nav-bar {
+  display: flex;
+}
+
+.nav-bar li a {
+  color: aliceblue;
+}
+
+/*=======================*
+
+      Hero-Section
+
+ *======================== */
+
+.hero {
+  padding: 3rem 0;
+}
+
+.card {
+  flex: 0 1 30%;
+  background-color: #005979;
+  color: #fff;
+  padding: 1.7rem 3.5rem;
+  box-shadow: 7px 7px 8px 0 rgba(0, 0, 0, 0.7);
+  align-self: stretch;
+}
+
+.o-list {
+  list-style-type: decimal;
+}
+
+.u-list {
+  list-style-type: disc;
+}
+
+.nest-list {
+  list-style-type: square;
+}
+
+.ordered,
+.nest-list {
+  padding: 0.5rem 0 0 2.2rem;
+}
+
+.card li {
+  margin-bottom: 0.7rem;
+  font-size: 1.2rem;
+}
+
+.card-3 li {
+  margin-bottom: 1.5rem;
+}
+
+.card-3 li i {
+  margin-right: 0.5rem;
+  color: black;
+}
+
+/* Text-Section */
+
+.description dt {
+  padding: 0.6rem 0;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Source Serif Pro", serif;
+}
+
+.description dd {
+  padding-left: 3rem;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+/* Footer */
+
+.footer {
+  padding: 2.5rem;
+  background-color: #252c22;
+  margin-top: 3rem;
+}
